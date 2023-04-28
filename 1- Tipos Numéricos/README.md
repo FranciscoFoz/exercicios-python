@@ -30,6 +30,7 @@ Para isso, utilize os seguintes elementos:
 Ao final, exiba os resultados para o usuário.
 
 ## 3 - Porcentagem de leitura
+Desafio:
 
 Crie um programa que solicite ao usuário que digite o número total de páginas
 de um livro e o número de páginas que foram lidas, e em seguida,
@@ -42,6 +43,7 @@ indique que terminou de ler o livro, ou seja, tenha lido todas as páginas.
 Para realizar essa divisão com precisão exata, utilize o módulo Decimal da biblioteca padrão do Python.
 
 ## 4 - Ordenação de artigos
+Desafio:
 
 Dada a lista de artigos:
 
@@ -68,6 +70,8 @@ Crie uma função para ordenar a lista de artigos por data de publicação, do m
 Utilize as funções sort(), len() e a biblioteca datetime para completar o desafio.
 
 ## 5 - Número de registro Hexadecimal
+Desafio:
+
 Crie um programa que pergunte ao usuário se ele deseja converter o número de registro para hexadecimal ou
 se ele deseja converter o número hexadecimal em número de registro (um número inteiro).
 
