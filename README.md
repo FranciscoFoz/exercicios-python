@@ -1,7 +1,7 @@
 # Exercícios Python
 Este repositório contém uma série de exercícios de programação em Python que foram criados para ajudar iniciantes na linguagem a praticarem e aprimorarem suas habilidades.
 
-## Tipos numéricos
+## Números
 Esta seção contém exercícios que visam praticar a manipulação de números inteiros e decimais, bem como operações matemáticas básicas.
 
 * 1 - Valor da multa
