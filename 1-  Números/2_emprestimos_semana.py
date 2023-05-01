@@ -10,8 +10,6 @@ por dia de uma biblioteca ao longo de uma semana (7 dias) e calcule:
 * A média diária de empréstimos
 * O dia com o maior número de empréstimos
 
-Para isso, utilize os seguintes elementos:
-
 Ao final, exiba os resultados para o usuário.
 
 '''
