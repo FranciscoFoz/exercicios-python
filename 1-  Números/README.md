@@ -15,7 +15,7 @@ a data de vencimento e calcular a multa com base na seguinte tabela:
 
 Ao final, o programa deve exibir a mensagem "O valor da sua multa é R$ X", em que X é o valor da multa calculada.
 
-## 2 - Emprestimos semana
+## 2 - Empréstimos semana
 Desafio:
 
 O desafio consiste em escrever  um programa que receba o número de livros emprestados 
