@@ -13,5 +13,9 @@ Esta seção contém exercícios que visam praticar a manipulação de números 
 ## Strings
 Nesta seção, os exercícios são focados em strings e em como manipulá-las. Os exercícios incluem formatação de strings, concatenação, extração de substrings, entre outros.
 
+* 1 - Ordernar títulos
+* 2 - Palavra mais longa
+* 3 - Contar palavras
+
 
 
