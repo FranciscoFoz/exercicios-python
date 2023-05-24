@@ -83,8 +83,6 @@ artigos = [
 
 ## 4 - PROCESSAR REGISTRO MARC
 
-# PROCESSAR REGISTRO MARC
-
 Desafio:
 
 Escreva um programa que leia o texto fornecido e exiba as seguintes informações:
