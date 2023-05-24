@@ -80,3 +80,55 @@ artigos = [
 'G3Detector: General GPT-Generated Text Detector',
 'GPT Paternity Test: GPT Generated Text Detection with GPT Genetic Inheritance'
 ]
+
+## 4 - PROCESSAR REGISTRO MARC
+
+# PROCESSAR REGISTRO MARC
+
+Desafio:
+
+Escreva um programa que leia o texto fornecido e exiba as seguintes informações:
+
+O título do livro, no campo MARC que começa com "245".
+O sobrenome e nome do autor, no campo MARC que começa com "100".
+O sobrenome e nome do tradutor, no campo MARC que começa com "700".
+O ano de publicação, no campo MARC que começa com "260".
+O número de páginas, no campo MARC que começa com "300".
+
+Certifique-se de utilizar manipulação de strings para extrair as informações corretas.
+
+Texto fornecido:
+
+LDR 00000        2200000   4500
+001 0123456789
+008 210524s2023    xx            000 0 eng d
+020 ## $a9780140449136 (paperback)
+100 1# $aDostoiévski, Fyodor,$d1821-1881.
+245 10$aCrime e Castigo /$cFyodor Dostoiévski ; traduzido por Constance Garnett.
+250 ## $aEdição especial.
+260 ## $aSão Paulo :$bEditora Exemplo,$c2023.
+300 ## $a500 páginas ;$c21 cm.
+336 ## $atext$btxt$2rdacontent
+337 ## $aunmediated$bn$2rdamedia
+338 ## $avolume$bnc$2rdacarrier
+500 ## $aInclui notas de rodapé.
+520 ## $a"Crime e Castigo" é um dos romances mais influentes da literatura mundial. Ele explora a mente atormentada de Raskólnikov, um jovem estudante que comete um assassinato e lida com as consequências emocionais e morais de seus atos.
+650 #0 $aRomance russo.
+650 #0 $aAssassinato$xFicção.
+700 1# $aGarnett, Constance,$d1861-1946,$etr.
+710 2# $aEditora Exemplo.
+
+## 5 - GERAR CÓDIGO ENTRADA 
+
+Desafio:
+
+Escreva um programa que gere um código de entrada de um documento, a partir do seu título, autoria, ano de publicação 
+e data/hora de entrada atuais.
+
+O código deverá conter todas as letras em maiúsculas e não deverá conter caracteres especiais e espaços em branco.
+O título deverá ser retornado de forma completa.
+A autoria deverá ser retornada apenas os 3 primeiros caracteres.
+
+Os quatro elementos do código (título, autoria, ano de publicação e data/hora de chegada) deverão ser separados por "_".
+
+Utilize as bibliotecas datetime e unicodedata.
