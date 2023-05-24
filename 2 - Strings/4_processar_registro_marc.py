@@ -4,13 +4,12 @@ Desafio:
 
 Escreva um programa que leia o texto fornecido e exiba as seguintes informações:
 
-O título do livro, no campo MARC que começa com "245".
-O sobrenome e nome do autor, no campo MARC que começa com "100".
-O sobrenome e nome do tradutor, no campo MARC que começa com "700".
-O ano de publicação, no campo MARC que começa com "260".
-O número de páginas, no campo MARC que começa com "300".
+O título do livro: o campo MARC que começa com "245".
+O sobrenome e nome do autor: o campo MARC que começa com "100".
+O sobrenome e nome do tradutor: o campo MARC que começa com "700".
+O ano de publicação: o campo MARC que começa com "260".
+O número de páginas: o campo MARC que começa com "300".
 
-Certifique-se de utilizar manipulação de strings para extrair as informações corretas.
 
 Texto fornecido:
 
