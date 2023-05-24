@@ -16,6 +16,6 @@ Nesta seção, os exercícios são focados em strings e em como manipulá-las. O
 * 1 - Ordernar títulos
 * 2 - Palavra mais longa
 * 3 - Contar palavras
-
-
+* 4 - Processar registro MARC
+* 5 - Gerar código entrada 
 
