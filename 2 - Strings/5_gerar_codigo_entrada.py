@@ -34,6 +34,7 @@ def gerar_codigo_entrada(titulo, autor, ano_publicacao):
     #Tratamento inicial no Autor(a)
     autor = remover_acentos(autor).upper()
     autor = autor.translate(tabela_caracteres_especiais)
+    
     # Obter a data e hora atual
     data_hora_chegada = datetime.now().strftime("%Y%m%d%H%M%S")
 
@@ -53,4 +54,4 @@ codigo_catalogacao = gerar_codigo_entrada(titulo, autor, ano_publicacao)
 
 # Imprimir o código de catalogação
 print("Código de entrada:", codigo_catalogacao)
-
+print(unicodedata.normalize('NFKD', 'AZALEÍA').encode('ASCII', 'ignore').decode('ASCII'))
